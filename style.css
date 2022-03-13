@@ -14,8 +14,14 @@
 }
 
 body {
-    background: rgb(36,0,29);
-background: linear-gradient(90deg, rgba(36,0,29,1) 0%, rgba(190,25,76,1) 100%, rgba(0,31,255,1) 100%);}
+     color: white;
+        background-image: url("img/bg.jpg");
+        background-color: rgba(0, 0, 0, 0.6);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-blend-mode: darken;
+}
 
 .link-tree {
     display: flex;
@@ -31,7 +37,7 @@ background: linear-gradient(90deg, rgba(36,0,29,1) 0%, rgba(190,25,76,1) 100%, r
     border-radius: 50%;
 }
 .link-tree h1 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
 
 .link-tree a {
