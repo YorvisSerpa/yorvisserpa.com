@@ -42,6 +42,12 @@ body {
     font-size: 1.5rem;
     color: ghostwhite;
 }
+.link-tree h2 {
+    font-size: 0.9rem;
+    color: ghostwhite;
+    text-align: center;
+}
+
 
 .link-tree a {
     background-color: rgba(0, 0, 0, 0.6);
