@@ -35,14 +35,17 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    box-shadow: 0 0 6px 2px;
+    color: indianred;
 }
 .link-tree h1 {
     font-size: 1.5rem;
+    color: indianred;
 }
 
 .link-tree a {
     background-color: whitesmoke;
-    color: black;
+    color: indianred;
     width: 100%;
     padding: 15px;
     text-decoration: none;
@@ -52,11 +55,13 @@ body {
     font-weight: bold;
     border: solid 2px darkred;
     transition: all 0.5s linear;
+    box-shadow: 0 0 6px 2px;
+    border-radius: 16px;
 }
 
 .link-tree a:hover {
     background-color: var(--bgcolor);
-    color: var(--accentcolor);
+    color: indianred;
 }
 
 @media (min-width: 1024px) {
